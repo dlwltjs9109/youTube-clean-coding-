@@ -3,9 +3,120 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=divice-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
     <title>YouTube Mobile</title>
+    <script src="http://kit.fontawesome.com/2d323a629b.js" crossorigin="anonymous"></script>
+    <script src="main.js" defer></script>
 </head>
 <body>
+    <!-- Header-->
+    <header>
+        <div class="logo">
+            <i class="fab fa-youtube"></i>
+            <span class="title">Youtube</span>
+        </div>
+        <div class="icons">
+            <i class="fas fa-search"></i>
+            <i class="fas fa-ellipsis-v"></i>
+        </div>
+    </header>
 
+    <!-- Video Player -->
+    <section class="player">
+        <video controls src="video/Puppy - 37478.mp4"></video>
+    </section>
+
+    <div class="infoAndUpNext">
+    <section class="info">
+        <div class="metadata">
+            <ul class="hashtags">
+                <li>#Kongei</li>
+                <li>#Lovely</li>
+                <li>#Dog</li>
+            </ul>
+            <div class="titleAndButton">
+                <span class="title clamp">
+                    Kongei Lovely Dog: Youtube Mobile Website 따라 만들기 그 대상은
+                    바로바로 기요미 강아지 콩이 | 콩이는 과연 people 일까? 아니면 dog일까
+                    그것이 궁금하다
+                </span>
+                <button class="moreBtn">
+                    <i class="fas fa-caret-down"></i>
+                </button>
+            </div>
+            <span class="views">1M views 1 month ago</span>
+        </div>
+        <ul class="actions">
+            <li>
+                <button><i class="active fas fa-thumbs-up"></i><span>1K</span></button>
+            </li>
+            <li>
+                <button><i class="fas fa-thumbs-down"></i><span>0</span></button>
+            </li>
+            <li>
+                <button><i class="fas fa-share"></i><span>Share</span></button>
+            </li>
+            <li>
+                <button><i class="fas fa-plus"></i><span>Save</span></button>
+            </li>
+            <li>
+                <button><i class="fab fa-font-awesome-flag"></i><span>Report</span></button>
+            </li>
+        </ul>
+        <div class="channel">
+            <div class="metadata">
+                <img src="image/콩이1.jpg" alt="" />
+                <div class="info">
+                    <span class="name">콩이주인 by 지싼</span>
+                    <span class="subscribers">1M subscribers</span>
+                </div>
+            </div>
+            <button class="subscribe">subscribe</button>
+        </div>
+    </section>
+
+    <!-- Up Next -->
+    <section class="upNext">
+        <span class="title">Up next</span>
+        <ul>
+            <li class="item">
+                <div class="img"><img src="image/콩이1-1.jpg" alt="" /></div>
+                <div class="info">
+                    <span class="title">People 같은 콩이 하지만 콩이는 나의 갱얼쥐 입니다요 🐶❤️
+                        아니 사실은 먹는 것만 밝히는 먹보 간식만 좋아하지요 🐽
+                        (feat. 이제 speaking 좀 해봐~~~)</span>
+                    <span class="name">콩이주인 by 지싼</span>
+                    <span class="views">82K views</span>
+                </div>
+                <button class="moreBtn"><i class="fas fa-ellipsis-v"></i></button>
+            </li>
+            <li class="item">
+                <div class="img"><img src="image/콩이1-2.jpg" alt="" /></div>
+                <div class="info">
+                    <span class="title">People 같은 콩이 하지만 콩이는 나의 갱얼쥐 입니다요 🐶❤️
+                        아니 사실은 먹는 것만 밝히는 먹보 간식만 좋아하지요 🐽
+                        (feat. 이제 speaking 좀 해봐~~~)</span>
+                    <span class="name">콩이주인 by 지싼</span>
+                    <span class="views">82K views</span>
+                </div>
+                <button class="moreBtn"><i class="fas fa-ellipsis-v"></i></button>
+            </li>
+            <li class="item">
+                <div class="img"><img src="image/콩이1-3.jpg" alt="" /></div>
+                <div class="info">
+                    <span class="title">People 같은 콩이 하지만 콩이는 나의 갱얼쥐 입니다요 🐶❤️
+                        아니 사실은 먹는 것만 밝히는 먹보 간식만 좋아하지요 🐽
+                        (feat. 이제 speaking 좀 해봐~~~)</span>
+                    <span class="name">콩이주인 by 지싼</span>
+                    <span class="views">82K views</span>
+                </div>
+                <button class="moreBtn"><i class="fas fa-ellipsis-v"></i></button>
+            </li>
+        </ul>
+    </section>
+    </div>
 </body>
 </html>
